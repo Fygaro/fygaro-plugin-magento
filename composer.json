@@ -1,0 +1,26 @@
+{
+  "name": "fygaro/module-fygaro-payment",
+  "description": "Magento 2 module for the integration of Fygaro payment gateway",
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Fygaro",
+      "email": "support@fygaro.com",
+      "homepage": "https://www.fygaro.com/",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Fygaro\\FygaroPayment\\": ""
+    }
+  }
+}
