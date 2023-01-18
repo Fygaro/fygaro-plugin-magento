@@ -102,7 +102,7 @@ class Token implements HttpGetActionInterface
         }
 
         //Get Order Total
-        $total = number_format($order->getGrandTotal(), 2);
+        $total = number_format($order->getGrandTotal(), 2, '.', '');
         $currency = $order->getOrderCurrency()->getCode();
 
         //Get BaseURL
